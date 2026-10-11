@@ -1,0 +1,14 @@
+# Secrets
+.env
+.env.*
+
+# Allow a template without secrets
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/

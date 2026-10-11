@@ -1,0 +1,26 @@
+# --------------------------------------------------------------- #
+# Local environment (app.py, document.py, rag.py, extraction.py)
+# --------------------------------------------------------------- #
+streamlit>=1.50
+docling>=2.0
+langchain-core>=1.0
+langchain-community>=0.4
+langchain-huggingface>=1.0
+langchain-text-splitters>=1.0
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+pydantic>=2.0
+requests>=2.31
+python-dotenv>=1.0
+
+# --------------------------------------------------------------- #
+# Kaggle environment (kaggle_api.py)
+# torch and transformers are preinstalled on Kaggle notebooks.
+# --------------------------------------------------------------- #
+torch>=2.3
+transformers>=4.51
+accelerate>=0.30
+fastapi>=0.110
+uvicorn>=0.29
+pyngrok>=7.0
+autoawq>=0.7   # only needed when the 4-bit Qwen3-14B-AWQ model is used
